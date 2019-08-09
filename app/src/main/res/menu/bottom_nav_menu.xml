@@ -1,0 +1,18 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/MediaPlay"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="MediaPlay" />
+
+    <item
+        android:id="@+id/GoodsList"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Best Item" />
+</menu>

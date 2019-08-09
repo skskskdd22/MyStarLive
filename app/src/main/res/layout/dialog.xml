@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="모바일 방송이 곧 시작됩니다."/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/et"
+        android:hint="방송 타이틀을 적어주세요.         "
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext"/>
+    ]
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startlive"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:text="방송시작"
+            android:textColor="#ffffffff" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
