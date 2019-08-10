@@ -92,8 +92,7 @@ public class BroadCasterActivity extends MvpActivity<BroadCasterView, BroadCaste
         ButterKnife.bind(this);
         speechAPI = new SpeechAPI(BroadCasterActivity.this);
         stringList = new ArrayList<>();
-        adapter = new ArrayAdapter(this,
-                android.R.layout.simple_list_item_1, stringList);
+        adapter = new ArrayAdapter(this, R.layout.simplechat, stringList);
         listView.setAdapter(adapter);
 
 

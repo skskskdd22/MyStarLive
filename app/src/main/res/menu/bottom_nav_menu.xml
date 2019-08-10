@@ -15,4 +15,9 @@
         android:id="@+id/GoodsList"
         android:icon="@android:drawable/ic_menu_gallery"
         android:title="Best Item" />
+
+    <item
+        android:id="@+id/User"
+        android:icon="@drawable/ic_account"
+        android:title="User" />
 </menu>

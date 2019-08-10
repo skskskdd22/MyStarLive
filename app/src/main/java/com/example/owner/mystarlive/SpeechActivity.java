@@ -8,12 +8,15 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.Toolbar;
+
 /*테스트하는 액티비티*/
 public class SpeechActivity extends AppCompatActivity {
 
 
 
     ActionBar actionBar;
+    Toolbar toolbar;
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -32,6 +35,11 @@ public class SpeechActivity extends AppCompatActivity {
                 case R.id.GoodsList:
                     /*Vod 페이지를 불러온다.*/
                     transaction.replace(R.id.content, new GoodsFragment()).commit();
+                    return true;
+
+                case R.id.User:
+                    /*Vod 페이지를 불러온다.*/
+                    transaction.replace(R.id.content, new UserFragment()).commit();
                     return true;
             }
             return false;

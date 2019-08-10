@@ -30,13 +30,17 @@
                 android:id="@+id/vodtitle"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
                 android:text="안녕하세요." />
 
             <TextView
                 android:id="@+id/vodid"
-                android:layout_width="100dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="방탄소년단" />
+                android:text="방탄소년단"
+                android:textSize="10dp"
+                android:padding="5dp"/>
 
         </LinearLayout>
 

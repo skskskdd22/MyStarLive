@@ -30,12 +30,16 @@
                 android:id="@+id/livetitle"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
                 android:text="방송중입니다." />
 
             <TextView
                 android:id="@+id/liveid"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:padding="5dp"
                 android:text="방탄소년단" />
 
         </LinearLayout>

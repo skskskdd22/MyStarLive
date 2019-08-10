@@ -19,29 +19,27 @@
     <ImageView
         android:id="@+id/goodsiv"
         android:layout_width="match_parent"
-        android:layout_height="200sp"
-        android:src="@drawable/ic_image" />
+        android:layout_height="150sp"
+        card_view:srcCompat="@drawable/ic_image" />
     <TextView
         android:id="@+id/goodstitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="17dp"
         android:textStyle="bold"
         android:text="방탄소년단 굿즈 미니포토엽서포카 50장"
-        android:padding="10dp"
-        android:layout_gravity="center"
-        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#7B1FA2"
         />
         <TextView
             android:id="@+id/goodsprice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="13dp"
             android:textStyle="bold"
             android:text="2500원"
-            android:padding="10dp"
-            android:layout_gravity="center"
-            android:gravity="center"
+            android:textColor="#BA55D3"
+            android:padding="5dp"
             />
     </LinearLayout>
 
